@@ -14,15 +14,17 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        position: fixed;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
         top: 0;
         width: 100%;
         background-color: #9b6f1d;
+        border: 1px solid darkolivegreen;
       }
       
       ul.topnav li {
         float: left;
-        border-right: 2px solid sandybrown;
+        border-right: 1px solid sandybrown;
       }
       
       ul.topnav li:list-child {
