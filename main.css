@@ -35,7 +35,8 @@ ul.topnav {
   top: 0;
   width: 100%;
   background-color: #9b6f1d;
-  border: 1px solid darkolivegreen;
+  border-top: 1px solid darkolivegreen;
+  border-bottom: 1px solid darkolivegreen;
 }
 
 ul.topnav li {
