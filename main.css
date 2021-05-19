@@ -48,7 +48,7 @@ ul.topnav li:list-child {
   border-right: none;
 }
 
-ul.topnav li a {
+ul.topnav li .text {
   display: block;
   color: white;
   text-align: center;
@@ -63,16 +63,68 @@ ul.topnav li a:hover {
   color: white;
 }
 
+ul.topnav li .dropbtn:hover {
+  background-color: #cc9123;
+  color: white;
+}
+
 ul.topnav li a.active {
   background-color: #24b811;
   color: black;
 }
 
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content a {
+  display: block;
+  border-right: none;
+  border-top: 1px solid sandybrown;
+}
+
+.dropdown-content {
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 div.main-content {
   padding: 8px;
-  margin-top: 10px;
+  margin: 30px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+}
+
+.footer {
+  padding: 20px 20px 40px 20px;
+  background-color: darkolivegreen;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border-top: 5px solid saddlebrown;
+}
+
+.footer p {
+  margin: 0px;
 }
 
 h3 {
