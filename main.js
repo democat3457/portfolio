@@ -6,6 +6,7 @@ $(function(){
        .filter(link => 
             ((window.location.pathname.endsWith("portfolio") || window.location.pathname.endsWith("portfolio/")) && 
               (link.href.endsWith("portfolio") || link.href.endsWith("portfolio/") || link.href.indexOf("index.html") !== -1)) || 
-            link.href.indexOf(window.location.pathname) !== -1)
+            (!(window.location.pathname.endsWith("portfolio") || window.location.pathname.endsWith("portfolio/")) && 
+              link.href.indexOf(window.location.pathname) !== -1))
        .forEach(link => link.classList.add("active"));
 });
