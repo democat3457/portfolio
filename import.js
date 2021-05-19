@@ -1,5 +1,5 @@
 $(function(){
   $("head").load("parts/head.html"); 
-  $("#temp-nav").load("parts/nav.html"); 
-  $("#temp-footer").load("parts/footer.html"); 
+  $("#temp-nav").replaceWith("parts/nav.html"); 
+  $("#temp-footer").replaceWith("parts/footer.html"); 
 });
