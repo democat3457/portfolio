@@ -109,17 +109,18 @@ ul.topnav li a.active {
 
 div.main-content {
   padding: 8px;
-  margin-top: 10px;
+  margin: 30px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
 .footer {
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   background-color: darkolivegreen;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 14px;
+  border-top: 5px solid saddlebrown;
 }
 
 .footer p {
