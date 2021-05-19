@@ -122,6 +122,10 @@ div.main-content {
   font-size: 14px;
 }
 
+.footer p {
+  margin: 0px;
+}
+
 h3 {
   margin-block-start: 0.3em;
 }
