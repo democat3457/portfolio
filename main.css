@@ -118,6 +118,10 @@ div.main-content {
   font-weight: 300;
 }
 
+img {
+  margin: 10px 15px;
+}
+
 .footer {
   padding: 20px 20px 40px 20px;
   background-color: darkolivegreen;
