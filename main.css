@@ -13,8 +13,9 @@ body {
   margin: 10px;
   padding: 10px;
   border: 1px solid darkolivegreen;
-  background-image: url("/portfolio/files/banner.png");
+  background-image: url(/portfolio/files/banner.png), linear-gradient(black, white, white, white, black);
   background-repeat: repeat-x;
+  background-blend-mode: exclusion;
 }
 
 .header h1 {
