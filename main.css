@@ -135,6 +135,9 @@ img {
   font-weight: 300;
   font-size: 14px;
   border-top: 5px solid saddlebrown;
+  
+  position: fixed;
+  bottom: 0px;
 }
 
 .footer p {
