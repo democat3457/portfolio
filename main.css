@@ -6,7 +6,8 @@ html {
 body {
   background-color: #ffd984;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
+  position: relative;
 }
 
 .header {
@@ -129,15 +130,19 @@ img {
 }
 
 .footer {
-  padding: 20px 20px 40px 20px;
+/*   padding: 20px 20px 40px 20px; */
   background-color: darkolivegreen;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 14px;
   border-top: 5px solid saddlebrown;
   
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
 }
 
 .footer p {
